@@ -5,7 +5,7 @@ const repoCount = 2
 
 console.log(`Hello my name is ${name} and my repositry count is ${repoCount}.`);   //mordern way and readable.
 
-const gameName = new String('rasikahc')   
+const gameName = new String('rasika-hc-com')   
 /*0:"r"
 1:"a"
 2:"s"
@@ -31,4 +31,12 @@ console.log(anotherString);
 
 const newStringOne = "     Rasika    "
 console.log(newStringOne);
-console.log(newStringOne.trim());  //ignores the extra spaces.
+console.log(newStringOne.trim());  //removes the extra spaces.
+
+
+const url ="https://hitesh.com/hitesh%20choudhary"  //%20 for the space.
+console.log(url.replace('%20', '-'));  //to replace.
+
+console.log(url.includes('rasika'));  //to ask
+
+console.log(gameName.split('-'));    //to split. syntax-> split(separator) OR split(separator, limit)
