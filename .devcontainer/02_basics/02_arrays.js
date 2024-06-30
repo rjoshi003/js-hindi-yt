@@ -4,6 +4,10 @@ const dc_heros = ["superman", "flash", "batman"]
 marvel_heros.push(dc_heros) //array ke andar array. kisi bhi type ka inut le leta h.
 
 // console.log(marvel_heros); 
+// console.log(marvel_heros[3][1]);
 
-marvel_heros.concat(dc_heros)
-console.log(marvel_heros);
+// const allHeros = marvel_heros.concat(dc_heros)
+// console.log(allHeros);
+
+const all_new_heros = [...marvel_heros, ...dc_heros]
+console.log(all_new_heros);
