@@ -43,4 +43,10 @@ const users = {
     },
 }
 
+//Jason
 
+{
+    "name": "hitesh", 
+    "coursename": "js in hindi",
+    "price": "free"
+}
